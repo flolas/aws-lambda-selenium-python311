@@ -1,0 +1,1 @@
+docker run -v "$PWD":/var/task "public.ecr.aws/sam/build-python3.11" /bin/sh -c "./create_zip_with_deps.sh"
